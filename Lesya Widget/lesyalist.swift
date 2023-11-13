@@ -384,6 +384,7 @@ struct lesyalist: View {
                     }
                     .overlay {
                         
+                        
                         if showTips {
                             Color.black.opacity(0.8)
                                 .ignoresSafeArea()
