@@ -1,0 +1,35 @@
+{
+  "identifier" : "2240DE29",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "6467277758",
+      "localizations" : [
+        {
+          "description" : "Спосіб подякувати за додаток розробнику.",
+          "displayName" : "На каву розробнику",
+          "locale" : "uk"
+        }
+      ],
+      "productID" : "donatforcoff15",
+      "referenceName" : "developdonat",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "6467242039",
+    "_developerTeamID" : "8RNCP8B9W5",
+    "_lastSynchronizedDate" : 717023446.27522302
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 2,
+    "minor" : 0
+  }
+}

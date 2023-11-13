@@ -1,0 +1,864 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE42A5562ACB18AA000BD316 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE42A5552ACB18AA000BD316 /* Launch Screen.storyboard */; };
+		AE4842662ACA290300B9B40E /* credtable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4842652ACA290300B9B40E /* credtable.swift */; };
+		AE777CD92AB7C37F00393883 /* Lesya_WidgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE777CD82AB7C37F00393883 /* Lesya_WidgetApp.swift */; };
+		AE777CDB2AB7C37F00393883 /* lesyalist.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE777CDA2AB7C37F00393883 /* lesyalist.swift */; };
+		AE777CDD2AB7C38000393883 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE777CDC2AB7C38000393883 /* Assets.xcassets */; };
+		AE777CE02AB7C38000393883 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE777CDF2AB7C38000393883 /* Preview Assets.xcassets */; };
+		AE777CEA2AB7C38000393883 /* Lesya_WidgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE777CE92AB7C38000393883 /* Lesya_WidgetTests.swift */; };
+		AE777CF42AB7C38000393883 /* Lesya_WidgetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE777CF32AB7C38000393883 /* Lesya_WidgetUITests.swift */; };
+		AE777CF62AB7C38000393883 /* Lesya_WidgetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE777CF52AB7C38000393883 /* Lesya_WidgetUITestsLaunchTests.swift */; };
+		AE777D032AB7C3F300393883 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE777D022AB7C3F300393883 /* ContentModel.swift */; };
+		AE777D0B2AB7C44B00393883 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE777D0A2AB7C44B00393883 /* WidgetKit.framework */; };
+		AE777D0D2AB7C44B00393883 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE777D0C2AB7C44B00393883 /* SwiftUI.framework */; };
+		AE777D102AB7C44B00393883 /* Lesya_WidgettBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE777D0F2AB7C44B00393883 /* Lesya_WidgettBundle.swift */; };
+		AE777D142AB7C44B00393883 /* Lesya_Widgett.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE777D132AB7C44B00393883 /* Lesya_Widgett.swift */; };
+		AE777D172AB7C44C00393883 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE777D162AB7C44C00393883 /* Assets.xcassets */; };
+		AE777D192AB7C44C00393883 /* Lesya_Widgett.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = AE777D152AB7C44B00393883 /* Lesya_Widgett.intentdefinition */; };
+		AE777D1A2AB7C44C00393883 /* Lesya_Widgett.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = AE777D152AB7C44B00393883 /* Lesya_Widgett.intentdefinition */; };
+		AE777D1D2AB7C44C00393883 /* lesyawidgettExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AE777D082AB7C44B00393883 /* lesyawidgettExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AE777D2A2AB7C99000393883 /* Lesya-Widget-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE777D252AB7C72700393883 /* Lesya-Widget-Info.plist */; };
+		AE9DA5732AD3029A0070A7C7 /* TimetableSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9DA5722AD3029A0070A7C7 /* TimetableSheet.swift */; };
+		AE9DA5752AD302A80070A7C7 /* LunchSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9DA5742AD302A80070A7C7 /* LunchSheet.swift */; };
+		AE9DA5772AD302D10070A7C7 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9DA5762AD302D10070A7C7 /* Styles.swift */; };
+		AE9DA57A2AD302E30070A7C7 /* LunchItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9DA5782AD302E30070A7C7 /* LunchItem.swift */; };
+		AE9DA57B2AD302E30070A7C7 /* TimetableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9DA5792AD302E30070A7C7 /* TimetableItem.swift */; };
+		AE9DA57F2AD362F70070A7C7 /* autorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9DA57E2AD362F70070A7C7 /* autorSheet.swift */; };
+		AED9BB752ABDBFC800753DF4 /* TipsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED9BB742ABDBFC800753DF4 /* TipsStore.swift */; };
+		AED9BB772ABDC06C00753DF4 /* ProductsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED9BB762ABDC06C00753DF4 /* ProductsConstants.swift */; };
+		AED9BB7F2ABE146800753DF4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AED9BB7E2ABE146800753DF4 /* StoreKit.framework */; };
+		AED9BB812ABEF38700753DF4 /* tipmll.storekit in Resources */ = {isa = PBXBuildFile; fileRef = AED9BB802ABEF38700753DF4 /* tipmll.storekit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE777CE62AB7C38000393883 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE777CCD2AB7C37F00393883 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE777CD42AB7C37F00393883;
+			remoteInfo = "Lesya Widget";
+		};
+		AE777CF02AB7C38000393883 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE777CCD2AB7C37F00393883 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE777CD42AB7C37F00393883;
+			remoteInfo = "Lesya Widget";
+		};
+		AE777D1B2AB7C44C00393883 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE777CCD2AB7C37F00393883 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE777D072AB7C44B00393883;
+			remoteInfo = "Lesya WidgettExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AE777D212AB7C44C00393883 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AE777D1D2AB7C44C00393883 /* lesyawidgettExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AE0B5E882AD744C100FDC13E /* lesyawidgettExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = lesyawidgettExtension.entitlements; sourceTree = "<group>"; };
+		AE42A5552ACB18AA000BD316 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		AE4842652ACA290300B9B40E /* credtable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = credtable.swift; sourceTree = "<group>"; };
+		AE777CD52AB7C37F00393883 /* lesyawidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lesyawidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE777CD82AB7C37F00393883 /* Lesya_WidgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesya_WidgetApp.swift; sourceTree = "<group>"; };
+		AE777CDA2AB7C37F00393883 /* lesyalist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lesyalist.swift; sourceTree = "<group>"; };
+		AE777CDC2AB7C38000393883 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE777CDF2AB7C38000393883 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AE777CE52AB7C38000393883 /* lesyawidgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lesyawidgetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE777CE92AB7C38000393883 /* Lesya_WidgetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesya_WidgetTests.swift; sourceTree = "<group>"; };
+		AE777CEF2AB7C38000393883 /* lesyawidgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lesyawidgetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE777CF32AB7C38000393883 /* Lesya_WidgetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesya_WidgetUITests.swift; sourceTree = "<group>"; };
+		AE777CF52AB7C38000393883 /* Lesya_WidgetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesya_WidgetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AE777D022AB7C3F300393883 /* ContentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentModel.swift; path = ../../../Desktop/ContentModel.swift; sourceTree = "<group>"; };
+		AE777D082AB7C44B00393883 /* lesyawidgettExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = lesyawidgettExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE777D0A2AB7C44B00393883 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		AE777D0C2AB7C44B00393883 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		AE777D0F2AB7C44B00393883 /* Lesya_WidgettBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesya_WidgettBundle.swift; sourceTree = "<group>"; };
+		AE777D132AB7C44B00393883 /* Lesya_Widgett.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesya_Widgett.swift; sourceTree = "<group>"; };
+		AE777D152AB7C44B00393883 /* Lesya_Widgett.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Lesya_Widgett.intentdefinition; sourceTree = "<group>"; };
+		AE777D162AB7C44C00393883 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE777D182AB7C44C00393883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE777D252AB7C72700393883 /* Lesya-Widget-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lesya-Widget-Info.plist"; sourceTree = SOURCE_ROOT; };
+		AE9DA5722AD3029A0070A7C7 /* TimetableSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimetableSheet.swift; sourceTree = "<group>"; };
+		AE9DA5742AD302A80070A7C7 /* LunchSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LunchSheet.swift; sourceTree = "<group>"; };
+		AE9DA5762AD302D10070A7C7 /* Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Styles.swift; path = "../../../Downloads/StuduWidgets-main/StuduWidgets/Styles/Styles.swift"; sourceTree = "<group>"; };
+		AE9DA5782AD302E30070A7C7 /* LunchItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LunchItem.swift; sourceTree = "<group>"; };
+		AE9DA5792AD302E30070A7C7 /* TimetableItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimetableItem.swift; sourceTree = "<group>"; };
+		AE9DA57E2AD362F70070A7C7 /* autorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autorSheet.swift; sourceTree = "<group>"; };
+		AED9BB742ABDBFC800753DF4 /* TipsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsStore.swift; sourceTree = "<group>"; };
+		AED9BB762ABDC06C00753DF4 /* ProductsConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsConstants.swift; sourceTree = "<group>"; };
+		AED9BB7E2ABE146800753DF4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		AED9BB802ABEF38700753DF4 /* tipmll.storekit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = tipmll.storekit; path = "../../../Desktop/Новая папка/tipmll.storekit"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE777CD22AB7C37F00393883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED9BB7F2ABE146800753DF4 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE777CE22AB7C38000393883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE777CEC2AB7C38000393883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE777D052AB7C44B00393883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE777D0D2AB7C44B00393883 /* SwiftUI.framework in Frameworks */,
+				AE777D0B2AB7C44B00393883 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE777CCC2AB7C37F00393883 = {
+			isa = PBXGroup;
+			children = (
+				AE0B5E882AD744C100FDC13E /* lesyawidgettExtension.entitlements */,
+				AE42A5552ACB18AA000BD316 /* Launch Screen.storyboard */,
+				AE777CD72AB7C37F00393883 /* Lesya Widget */,
+				AE777CE82AB7C38000393883 /* Lesya WidgetTests */,
+				AE777CF22AB7C38000393883 /* Lesya WidgetUITests */,
+				AE777D0E2AB7C44B00393883 /* Lesya Widgett */,
+				AE777D092AB7C44B00393883 /* Frameworks */,
+				AE777CD62AB7C37F00393883 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE777CD62AB7C37F00393883 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE777CD52AB7C37F00393883 /* lesyawidget.app */,
+				AE777CE52AB7C38000393883 /* lesyawidgetTests.xctest */,
+				AE777CEF2AB7C38000393883 /* lesyawidgetUITests.xctest */,
+				AE777D082AB7C44B00393883 /* lesyawidgettExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE777CD72AB7C37F00393883 /* Lesya Widget */ = {
+			isa = PBXGroup;
+			children = (
+				AE777D252AB7C72700393883 /* Lesya-Widget-Info.plist */,
+				AED9BB742ABDBFC800753DF4 /* TipsStore.swift */,
+				AE777CD82AB7C37F00393883 /* Lesya_WidgetApp.swift */,
+				AED9BB762ABDC06C00753DF4 /* ProductsConstants.swift */,
+				AED9BB802ABEF38700753DF4 /* tipmll.storekit */,
+				AE777D022AB7C3F300393883 /* ContentModel.swift */,
+				AE777CDA2AB7C37F00393883 /* lesyalist.swift */,
+				AE9DA5762AD302D10070A7C7 /* Styles.swift */,
+				AE9DA57D2AD304A90070A7C7 /* Sheets */,
+				AE9DA57C2AD304460070A7C7 /* items */,
+				AE777CDC2AB7C38000393883 /* Assets.xcassets */,
+				AE777CDE2AB7C38000393883 /* Preview Content */,
+			);
+			path = "Lesya Widget";
+			sourceTree = "<group>";
+		};
+		AE777CDE2AB7C38000393883 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AE777CDF2AB7C38000393883 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AE777CE82AB7C38000393883 /* Lesya WidgetTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE777CE92AB7C38000393883 /* Lesya_WidgetTests.swift */,
+			);
+			path = "Lesya WidgetTests";
+			sourceTree = "<group>";
+		};
+		AE777CF22AB7C38000393883 /* Lesya WidgetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE777CF32AB7C38000393883 /* Lesya_WidgetUITests.swift */,
+				AE777CF52AB7C38000393883 /* Lesya_WidgetUITestsLaunchTests.swift */,
+			);
+			path = "Lesya WidgetUITests";
+			sourceTree = "<group>";
+		};
+		AE777D092AB7C44B00393883 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AED9BB7E2ABE146800753DF4 /* StoreKit.framework */,
+				AE777D0A2AB7C44B00393883 /* WidgetKit.framework */,
+				AE777D0C2AB7C44B00393883 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE777D0E2AB7C44B00393883 /* Lesya Widgett */ = {
+			isa = PBXGroup;
+			children = (
+				AE777D0F2AB7C44B00393883 /* Lesya_WidgettBundle.swift */,
+				AE777D132AB7C44B00393883 /* Lesya_Widgett.swift */,
+				AE777D152AB7C44B00393883 /* Lesya_Widgett.intentdefinition */,
+				AE777D162AB7C44C00393883 /* Assets.xcassets */,
+				AE777D182AB7C44C00393883 /* Info.plist */,
+			);
+			path = "Lesya Widgett";
+			sourceTree = "<group>";
+		};
+		AE9DA57C2AD304460070A7C7 /* items */ = {
+			isa = PBXGroup;
+			children = (
+				AE9DA5782AD302E30070A7C7 /* LunchItem.swift */,
+				AE9DA5792AD302E30070A7C7 /* TimetableItem.swift */,
+			);
+			path = items;
+			sourceTree = "<group>";
+		};
+		AE9DA57D2AD304A90070A7C7 /* Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				AE4842652ACA290300B9B40E /* credtable.swift */,
+				AE9DA57E2AD362F70070A7C7 /* autorSheet.swift */,
+				AE9DA5742AD302A80070A7C7 /* LunchSheet.swift */,
+				AE9DA5722AD3029A0070A7C7 /* TimetableSheet.swift */,
+			);
+			path = Sheets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE777CD42AB7C37F00393883 /* lesyawidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE777CF92AB7C38000393883 /* Build configuration list for PBXNativeTarget "lesyawidget" */;
+			buildPhases = (
+				AE777CD12AB7C37F00393883 /* Sources */,
+				AE777CD22AB7C37F00393883 /* Frameworks */,
+				AE777CD32AB7C37F00393883 /* Resources */,
+				AE777D212AB7C44C00393883 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE777D1C2AB7C44C00393883 /* PBXTargetDependency */,
+			);
+			name = lesyawidget;
+			productName = "Lesya Widget";
+			productReference = AE777CD52AB7C37F00393883 /* lesyawidget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE777CE42AB7C38000393883 /* lesyawidgetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE777CFC2AB7C38000393883 /* Build configuration list for PBXNativeTarget "lesyawidgetTests" */;
+			buildPhases = (
+				AE777CE12AB7C38000393883 /* Sources */,
+				AE777CE22AB7C38000393883 /* Frameworks */,
+				AE777CE32AB7C38000393883 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE777CE72AB7C38000393883 /* PBXTargetDependency */,
+			);
+			name = lesyawidgetTests;
+			productName = "Lesya WidgetTests";
+			productReference = AE777CE52AB7C38000393883 /* lesyawidgetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE777CEE2AB7C38000393883 /* lesyawidgetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE777CFF2AB7C38000393883 /* Build configuration list for PBXNativeTarget "lesyawidgetUITests" */;
+			buildPhases = (
+				AE777CEB2AB7C38000393883 /* Sources */,
+				AE777CEC2AB7C38000393883 /* Frameworks */,
+				AE777CED2AB7C38000393883 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE777CF12AB7C38000393883 /* PBXTargetDependency */,
+			);
+			name = lesyawidgetUITests;
+			productName = "Lesya WidgetUITests";
+			productReference = AE777CEF2AB7C38000393883 /* lesyawidgetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AE777D072AB7C44B00393883 /* lesyawidgettExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE777D1E2AB7C44C00393883 /* Build configuration list for PBXNativeTarget "lesyawidgettExtension" */;
+			buildPhases = (
+				AE777D042AB7C44B00393883 /* Sources */,
+				AE777D052AB7C44B00393883 /* Frameworks */,
+				AE777D062AB7C44B00393883 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lesyawidgettExtension;
+			productName = "Lesya WidgettExtension";
+			productReference = AE777D082AB7C44B00393883 /* lesyawidgettExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE777CCD2AB7C37F00393883 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AE777CD42AB7C37F00393883 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					AE777CE42AB7C38000393883 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = AE777CD42AB7C37F00393883;
+					};
+					AE777CEE2AB7C38000393883 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = AE777CD42AB7C37F00393883;
+					};
+					AE777D072AB7C44B00393883 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AE777CD02AB7C37F00393883 /* Build configuration list for PBXProject "lesyawidget" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = uk;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				uk,
+			);
+			mainGroup = AE777CCC2AB7C37F00393883;
+			packageReferences = (
+			);
+			productRefGroup = AE777CD62AB7C37F00393883 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE777CD42AB7C37F00393883 /* lesyawidget */,
+				AE777CE42AB7C38000393883 /* lesyawidgetTests */,
+				AE777CEE2AB7C38000393883 /* lesyawidgetUITests */,
+				AE777D072AB7C44B00393883 /* lesyawidgettExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE777CD32AB7C37F00393883 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED9BB812ABEF38700753DF4 /* tipmll.storekit in Resources */,
+				AE777CE02AB7C38000393883 /* Preview Assets.xcassets in Resources */,
+				AE42A5562ACB18AA000BD316 /* Launch Screen.storyboard in Resources */,
+				AE777CDD2AB7C38000393883 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE777CE32AB7C38000393883 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE777CED2AB7C38000393883 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE777D062AB7C44B00393883 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE777D172AB7C44C00393883 /* Assets.xcassets in Resources */,
+				AE777D2A2AB7C99000393883 /* Lesya-Widget-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE777CD12AB7C37F00393883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE9DA57F2AD362F70070A7C7 /* autorSheet.swift in Sources */,
+				AE777D1A2AB7C44C00393883 /* Lesya_Widgett.intentdefinition in Sources */,
+				AE9DA5772AD302D10070A7C7 /* Styles.swift in Sources */,
+				AED9BB752ABDBFC800753DF4 /* TipsStore.swift in Sources */,
+				AE4842662ACA290300B9B40E /* credtable.swift in Sources */,
+				AE777D032AB7C3F300393883 /* ContentModel.swift in Sources */,
+				AE777CDB2AB7C37F00393883 /* lesyalist.swift in Sources */,
+				AE777CD92AB7C37F00393883 /* Lesya_WidgetApp.swift in Sources */,
+				AE9DA5752AD302A80070A7C7 /* LunchSheet.swift in Sources */,
+				AE9DA57B2AD302E30070A7C7 /* TimetableItem.swift in Sources */,
+				AED9BB772ABDC06C00753DF4 /* ProductsConstants.swift in Sources */,
+				AE9DA57A2AD302E30070A7C7 /* LunchItem.swift in Sources */,
+				AE9DA5732AD3029A0070A7C7 /* TimetableSheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE777CE12AB7C38000393883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE777CEA2AB7C38000393883 /* Lesya_WidgetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE777CEB2AB7C38000393883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE777CF42AB7C38000393883 /* Lesya_WidgetUITests.swift in Sources */,
+				AE777CF62AB7C38000393883 /* Lesya_WidgetUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE777D042AB7C44B00393883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE777D192AB7C44C00393883 /* Lesya_Widgett.intentdefinition in Sources */,
+				AE777D142AB7C44B00393883 /* Lesya_Widgett.swift in Sources */,
+				AE777D102AB7C44B00393883 /* Lesya_WidgettBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE777CE72AB7C38000393883 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE777CD42AB7C37F00393883 /* lesyawidget */;
+			targetProxy = AE777CE62AB7C38000393883 /* PBXContainerItemProxy */;
+		};
+		AE777CF12AB7C38000393883 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE777CD42AB7C37F00393883 /* lesyawidget */;
+			targetProxy = AE777CF02AB7C38000393883 /* PBXContainerItemProxy */;
+		};
+		AE777D1C2AB7C44C00393883 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE777D072AB7C44B00393883 /* lesyawidgettExtension */;
+			targetProxy = AE777D1B2AB7C44C00393883 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AE777CF72AB7C38000393883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE777CF82AB7C38000393883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE777CFA2AB7C38000393883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = lesyawidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lesya Widget/Preview Content\"";
+				DEVELOPMENT_TEAM = 8RNCP8B9W5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lesya-Widget-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "imll.Lesya-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AE777CFB2AB7C38000393883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = lesyawidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lesya Widget/Preview Content\"";
+				DEVELOPMENT_TEAM = 8RNCP8B9W5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lesya-Widget-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "imll.Lesya-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AE777CFD2AB7C38000393883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RNCP8B9W5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "imll.Lesya-WidgetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lesyawidget.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lesyawidget";
+			};
+			name = Debug;
+		};
+		AE777CFE2AB7C38000393883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RNCP8B9W5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "imll.Lesya-WidgetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lesyawidget.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lesyawidget";
+			};
+			name = Release;
+		};
+		AE777D002AB7C38000393883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RNCP8B9W5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "imll.Lesya-WidgetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lesya Widget";
+			};
+			name = Debug;
+		};
+		AE777D012AB7C38000393883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RNCP8B9W5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "imll.Lesya-WidgetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lesya Widget";
+			};
+			name = Release;
+		};
+		AE777D1F2AB7C44C00393883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = lesyawidgettExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RNCP8B9W5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lesya Widgett/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = lesyawidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "imll.Lesya-Widget.Lesya-Widgett";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE777D202AB7C44C00393883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = lesyawidgettExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RNCP8B9W5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lesya Widgett/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = lesyawidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "imll.Lesya-Widget.Lesya-Widgett";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE777CD02AB7C37F00393883 /* Build configuration list for PBXProject "lesyawidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE777CF72AB7C38000393883 /* Debug */,
+				AE777CF82AB7C38000393883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE777CF92AB7C38000393883 /* Build configuration list for PBXNativeTarget "lesyawidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE777CFA2AB7C38000393883 /* Debug */,
+				AE777CFB2AB7C38000393883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE777CFC2AB7C38000393883 /* Build configuration list for PBXNativeTarget "lesyawidgetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE777CFD2AB7C38000393883 /* Debug */,
+				AE777CFE2AB7C38000393883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE777CFF2AB7C38000393883 /* Build configuration list for PBXNativeTarget "lesyawidgetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE777D002AB7C38000393883 /* Debug */,
+				AE777D012AB7C38000393883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE777D1E2AB7C44C00393883 /* Build configuration list for PBXNativeTarget "lesyawidgettExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE777D1F2AB7C44C00393883 /* Debug */,
+				AE777D202AB7C44C00393883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE777CCD2AB7C37F00393883 /* Project object */;
+}
