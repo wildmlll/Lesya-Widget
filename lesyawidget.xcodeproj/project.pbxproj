@@ -16,7 +16,6 @@
 		AE777CEA2AB7C38000393883 /* Lesya_WidgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE777CE92AB7C38000393883 /* Lesya_WidgetTests.swift */; };
 		AE777CF42AB7C38000393883 /* Lesya_WidgetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE777CF32AB7C38000393883 /* Lesya_WidgetUITests.swift */; };
 		AE777CF62AB7C38000393883 /* Lesya_WidgetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE777CF52AB7C38000393883 /* Lesya_WidgetUITestsLaunchTests.swift */; };
-		AE777D032AB7C3F300393883 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE777D022AB7C3F300393883 /* ContentModel.swift */; };
 		AE777D0B2AB7C44B00393883 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE777D0A2AB7C44B00393883 /* WidgetKit.framework */; };
 		AE777D0D2AB7C44B00393883 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE777D0C2AB7C44B00393883 /* SwiftUI.framework */; };
 		AE777D102AB7C44B00393883 /* Lesya_WidgettBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE777D0F2AB7C44B00393883 /* Lesya_WidgettBundle.swift */; };
@@ -28,14 +27,15 @@
 		AE777D2A2AB7C99000393883 /* Lesya-Widget-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE777D252AB7C72700393883 /* Lesya-Widget-Info.plist */; };
 		AE9DA5732AD3029A0070A7C7 /* TimetableSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9DA5722AD3029A0070A7C7 /* TimetableSheet.swift */; };
 		AE9DA5752AD302A80070A7C7 /* LunchSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9DA5742AD302A80070A7C7 /* LunchSheet.swift */; };
-		AE9DA5772AD302D10070A7C7 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9DA5762AD302D10070A7C7 /* Styles.swift */; };
 		AE9DA57A2AD302E30070A7C7 /* LunchItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9DA5782AD302E30070A7C7 /* LunchItem.swift */; };
 		AE9DA57B2AD302E30070A7C7 /* TimetableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9DA5792AD302E30070A7C7 /* TimetableItem.swift */; };
 		AE9DA57F2AD362F70070A7C7 /* autorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9DA57E2AD362F70070A7C7 /* autorSheet.swift */; };
+		AEC317482B027F51003CBE75 /* tipmll.storekit in Resources */ = {isa = PBXBuildFile; fileRef = AEC317462B027F51003CBE75 /* tipmll.storekit */; };
+		AEC317492B027F51003CBE75 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC317472B027F51003CBE75 /* Styles.swift */; };
+		AEC3174B2B027F59003CBE75 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC3174A2B027F59003CBE75 /* ContentModel.swift */; };
 		AED9BB752ABDBFC800753DF4 /* TipsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED9BB742ABDBFC800753DF4 /* TipsStore.swift */; };
 		AED9BB772ABDC06C00753DF4 /* ProductsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED9BB762ABDC06C00753DF4 /* ProductsConstants.swift */; };
 		AED9BB7F2ABE146800753DF4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AED9BB7E2ABE146800753DF4 /* StoreKit.framework */; };
-		AED9BB812ABEF38700753DF4 /* tipmll.storekit in Resources */ = {isa = PBXBuildFile; fileRef = AED9BB802ABEF38700753DF4 /* tipmll.storekit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,7 +90,6 @@
 		AE777CEF2AB7C38000393883 /* lesyawidgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lesyawidgetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE777CF32AB7C38000393883 /* Lesya_WidgetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesya_WidgetUITests.swift; sourceTree = "<group>"; };
 		AE777CF52AB7C38000393883 /* Lesya_WidgetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesya_WidgetUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		AE777D022AB7C3F300393883 /* ContentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentModel.swift; path = ../../../Desktop/ContentModel.swift; sourceTree = "<group>"; };
 		AE777D082AB7C44B00393883 /* lesyawidgettExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = lesyawidgettExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE777D0A2AB7C44B00393883 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		AE777D0C2AB7C44B00393883 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -102,14 +101,15 @@
 		AE777D252AB7C72700393883 /* Lesya-Widget-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lesya-Widget-Info.plist"; sourceTree = SOURCE_ROOT; };
 		AE9DA5722AD3029A0070A7C7 /* TimetableSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimetableSheet.swift; sourceTree = "<group>"; };
 		AE9DA5742AD302A80070A7C7 /* LunchSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LunchSheet.swift; sourceTree = "<group>"; };
-		AE9DA5762AD302D10070A7C7 /* Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Styles.swift; path = "../../../Downloads/StuduWidgets-main/StuduWidgets/Styles/Styles.swift"; sourceTree = "<group>"; };
 		AE9DA5782AD302E30070A7C7 /* LunchItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LunchItem.swift; sourceTree = "<group>"; };
 		AE9DA5792AD302E30070A7C7 /* TimetableItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimetableItem.swift; sourceTree = "<group>"; };
 		AE9DA57E2AD362F70070A7C7 /* autorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autorSheet.swift; sourceTree = "<group>"; };
+		AEC317462B027F51003CBE75 /* tipmll.storekit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tipmll.storekit; sourceTree = "<group>"; };
+		AEC317472B027F51003CBE75 /* Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		AEC3174A2B027F59003CBE75 /* ContentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 		AED9BB742ABDBFC800753DF4 /* TipsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsStore.swift; sourceTree = "<group>"; };
 		AED9BB762ABDC06C00753DF4 /* ProductsConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsConstants.swift; sourceTree = "<group>"; };
 		AED9BB7E2ABE146800753DF4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		AED9BB802ABEF38700753DF4 /* tipmll.storekit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = tipmll.storekit; path = "../../../Desktop/Новая папка/tipmll.storekit"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,12 +177,12 @@
 			children = (
 				AE777D252AB7C72700393883 /* Lesya-Widget-Info.plist */,
 				AED9BB742ABDBFC800753DF4 /* TipsStore.swift */,
+				AEC3174A2B027F59003CBE75 /* ContentModel.swift */,
 				AE777CD82AB7C37F00393883 /* Lesya_WidgetApp.swift */,
+				AEC317472B027F51003CBE75 /* Styles.swift */,
+				AEC317462B027F51003CBE75 /* tipmll.storekit */,
 				AED9BB762ABDC06C00753DF4 /* ProductsConstants.swift */,
-				AED9BB802ABEF38700753DF4 /* tipmll.storekit */,
-				AE777D022AB7C3F300393883 /* ContentModel.swift */,
 				AE777CDA2AB7C37F00393883 /* lesyalist.swift */,
-				AE9DA5762AD302D10070A7C7 /* Styles.swift */,
 				AE9DA57D2AD304A90070A7C7 /* Sheets */,
 				AE9DA57C2AD304460070A7C7 /* items */,
 				AE777CDC2AB7C38000393883 /* Assets.xcassets */,
@@ -387,7 +387,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AED9BB812ABEF38700753DF4 /* tipmll.storekit in Resources */,
+				AEC317482B027F51003CBE75 /* tipmll.storekit in Resources */,
 				AE777CE02AB7C38000393883 /* Preview Assets.xcassets in Resources */,
 				AE42A5562ACB18AA000BD316 /* Launch Screen.storyboard in Resources */,
 				AE777CDD2AB7C38000393883 /* Assets.xcassets in Resources */,
@@ -426,10 +426,10 @@
 			files = (
 				AE9DA57F2AD362F70070A7C7 /* autorSheet.swift in Sources */,
 				AE777D1A2AB7C44C00393883 /* Lesya_Widgett.intentdefinition in Sources */,
-				AE9DA5772AD302D10070A7C7 /* Styles.swift in Sources */,
 				AED9BB752ABDBFC800753DF4 /* TipsStore.swift in Sources */,
+				AEC317492B027F51003CBE75 /* Styles.swift in Sources */,
+				AEC3174B2B027F59003CBE75 /* ContentModel.swift in Sources */,
 				AE4842662ACA290300B9B40E /* credtable.swift in Sources */,
-				AE777D032AB7C3F300393883 /* ContentModel.swift in Sources */,
 				AE777CDB2AB7C37F00393883 /* lesyalist.swift in Sources */,
 				AE777CD92AB7C37F00393883 /* Lesya_WidgetApp.swift in Sources */,
 				AE9DA5752AD302A80070A7C7 /* LunchSheet.swift in Sources */,
